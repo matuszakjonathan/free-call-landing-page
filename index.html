@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Free Call</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Book a Free Call with Our Team</h1>
         <p>Fill out the form below to schedule your free call.</p>
-        <form id="bookingForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="project">Tell us about your life/project:</label>
-            <textarea id="project" name="project" rows="4" required></textarea>
-            
-            <p><a id="calendlyLink" href="#" onclick="submitFormAndRedirect(event)">Confirm and Schedule Your Free Call</a></p>
-        </form>
+        <!-- Embed Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdy8LkfBs8ZZ5E5JG9FdyO5PlkC_6h6ivfwC6VLMLEUwqLbSw/viewform?embedded=true" width="640" height="688" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
-    <script src="scripts.js"></script>
 </body>
 </html>
+
