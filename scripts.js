@@ -10,7 +10,8 @@ function submitFormAndRedirect(event) {
         console.log('Sending data:', { name, email, project });
         
         // Sending data to Google Sheets
-        fetch('https://script.google.com/macros/s/AKfycbxzGR1r-8lKxMb1E_QQKU0hD7b8PO-xQnpS7zC2Yl8861-ZPIz0rwzkpk_kTjquKGWP/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbzCAVwvSpjOpPUXtQRE7Pekc5fm9mwS3aM6kYB4rO6aEZdqH1-SsYReo_apqm0Bk8LE/exec', {
+
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
