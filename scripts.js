@@ -10,7 +10,7 @@ function submitFormAndRedirect(event) {
         console.log('Sending data:', { name, email, project });
         
         // Sending data to Google Sheets
-        fetch('https://script.google.com/macros/s/AKfycbwE4vHr4Eq1ofoZ_m5xnxTcNjc9bXBVqPCFHpolelAIjfx7BBNhd0ZuakJS6mSV9Qme/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbw6Mc70q-ffiYSi4nOJnIHhHftCUrTTn9Luw7s4aEzmun7VT5PHni7zYMulvPh6bIac/exec', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -43,3 +43,4 @@ function submitFormAndRedirect(event) {
         alert('Please fill out all fields.');
     }
 }
+
