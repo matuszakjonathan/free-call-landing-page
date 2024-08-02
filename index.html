@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Free Call</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Free Call with Our Team</h1>
+        <p>Fill out the form below to schedule your free call.</p>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="project">Tell us about your life/project:</label>
+            <textarea id="project" name="project" rows="4" required></textarea>
+            
+            <p><a id="calendlyLink" href="#" onclick="submitFormAndRedirect(event)">Confirm and Schedule Your Free Call</a></p>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
